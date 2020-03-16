@@ -28,7 +28,7 @@ function copy() {
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    alert("Copied link: " + copyText.value);
+    alert("Link copied:\n" + copyText.value);
   }
  $('#hint').hide();
  $('#link_details').hide();
